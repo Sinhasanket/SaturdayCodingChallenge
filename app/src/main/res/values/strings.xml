@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SaturdayCodingChallenge</string>
+    <string name="register">Register</string>
+    <string name="phn_num">Phone Number</string>
+    <string name="pwd">Password</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="cnfPwd">Confirm Password</string>
+    <string name="ema_il">Email</string>
+    <string name="user_name">User Name</string>
+    <string name="google">Login with Google</string>
+    <string name="faceook">Login with Facebook</string>
+</resources>

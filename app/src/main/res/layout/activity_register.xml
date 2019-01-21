@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/laptop"
+    tools:context=".Register"
+    >
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="103dp"
+        android:layout_height="82dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="@string/ema_il"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/pwd"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/cnfpwd"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/cnfPwd"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/phn_num"
+        android:inputType="phone"
+        android:background="@drawable/rounded_corner"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+         />
+
+</LinearLayout>
+
